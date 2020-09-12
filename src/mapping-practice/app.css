@@ -1,0 +1,9 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.products{
+    background: blueviolet;
+    color: white;
+    margin-bottom: 10px;
+}
