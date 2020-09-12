@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import Jokes from './components/Jokes';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+          <Jokes
+            answer="Cuman punchline"
+        ></Jokes>
+
+        <Jokes
+            ques="pertanyaan 1 ?"
+            answer="jawaban 1. Hahahahaha"
+        ></Jokes>
+        <Jokes
+            ques="pertanyaan 2 ?"
+            answer="jawaban 2. Hahahahaha"
+        ></Jokes>
+        <Jokes
+            ques="pertanyaan 3 ?"
+            answer="jawaban 3. Hahahahaha"
+        ></Jokes>
+        <Jokes
+            ques="pertanyaan 4 ?"
+            answer="jawaban 4. Hahahahaha"
+        ></Jokes>
+        <Jokes
+            ques="pertanyaan 5 ?"
+            answer="jawaban 5. Hahahahaha"
+        ></Jokes>
+    </React.Fragment>
   );
 }
 
